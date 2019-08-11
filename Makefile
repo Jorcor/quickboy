@@ -1,3 +1,3 @@
 all:
-	gcc main.c opcodes.c -F/Library/Frameworks -framework SDL2
-	./a.out tetris.gb
+	gcc -o quickboy quickboy.c cpu.c
+	./quickboy
